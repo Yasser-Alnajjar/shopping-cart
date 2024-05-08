@@ -1,0 +1,133 @@
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn:active {
+  opacity: 0.4;
+}
+.btn:focus,
+.btn:focus-visible {
+  outline: none;
+}
+.btn.link {
+  padding: 0;
+  color: var(--bs-primary);
+  position: relative;
+}
+.btn.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: var(--bs-primary);
+  width: 50%;
+  height: 2px;
+  transition: var(--transition);
+}
+.btn.link:hover::after {
+  width: 100%;
+}
+
+.btn.blue {
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
+}
+.btn.indigo {
+  background-color: var(--bs-indigo);
+  color: var(--bs-white);
+}
+.btn.purple {
+  background-color: var(--bs-purple);
+  color: var(--bs-white);
+}
+.btn.pink {
+  background-color: var(--bs-pink);
+  color: var(--bs-dark);
+}
+.btn.red {
+  background-color: var(--bs-red);
+  color: var(--bs-dark);
+}
+.btn.orange {
+  background-color: var(--bs-orange);
+  color: var(--bs-dark);
+}
+.btn.yellow {
+  background-color: var(--bs-yellow);
+  color: var(--bs-white);
+}
+.btn.green {
+  background-color: var(--bs-green);
+  color: var(--bs-white);
+}
+.btn.teal {
+  background-color: var(--bs-teal);
+  color: var(--bs-white);
+}
+.btn.cyan {
+  background-color: var(--bs-cyan);
+  color: var(--bs-white);
+}
+.btn.white {
+  background-color: var(--bs-white);
+  color: var(--bs-dark);
+}
+.btn.gray {
+  background-color: var(--bs-gray);
+  color: var(--bs-white);
+}
+.btn.gray {
+  background-color: var(--bs-gray);
+  color: var(--bs-white);
+}
+.btn.primary {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+.btn.secondary {
+  background-color: var(--bs-secondary);
+  color: var(--bs-white);
+}
+.btn.success {
+  background-color: var(--bs-success);
+  color: var(--bs-white);
+}
+.btn.info {
+  background-color: var(--bs-info);
+  color: var(--bs-white);
+}
+.btn.warning {
+  background-color: var(--bs-warning);
+  color: var(--bs-white);
+}
+.btn.danger {
+  background-color: var(--bs-danger);
+  color: var(--bs-white);
+}
+.btn.light {
+  background-color: var(--bs-light);
+  color: var(--bs-white);
+}
+.btn.lighter {
+  background-color: var(--bs-lighter);
+  color: var(--bs-white);
+}
+.btn.dark {
+  background-color: var(--bs-dark);
+  color: var(--bs-white);
+}
+.btn.red {
+  background-color: var(--bs-red);
+  color: var(--bs-white);
+}
+.btn.beige {
+  background-color: var(--bs-beige);
+  color: var(--bs-white);
+}
