@@ -1,8 +1,7 @@
 const shop = document.querySelector("#shop");
 const cartlength = document.querySelector("#cart-length");
 const loader = document.querySelector(".loader");
-const url =
-  "https://shopping-cart-database-git-main-yasseralnajjars-projects.vercel.app/";
+const url = "https://shopping-cart-database.vercel.app";
 
 let cart = [];
 let products = [];
