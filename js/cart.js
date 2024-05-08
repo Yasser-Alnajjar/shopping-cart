@@ -3,7 +3,8 @@ const cartlength = document.querySelector("#cart-length");
 const totalEl = document.querySelector("#total");
 const message = document.querySelector(".message");
 const loader = document.querySelector(".loader");
-const url = "http://localhost:3000";
+const url =
+  "https://shopping-cart-database-git-main-yasseralnajjars-projects.vercel.app/";
 
 let total = 0;
 let products = [];
